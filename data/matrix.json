@@ -1,0 +1,482 @@
+[
+  {
+    "clause_id": "4.1(a)",
+    "section": "Structure",
+    "parameter": "Strength requirements",
+    "requirement_text": "a) Demonstrate that airframe structure shall be able to withstand flight limit loads without failure, malfunction or permanent deformation.",
+    "plain_paraphrase": "The airframe structure shall be able to withstand flight limit loads without failure, malfunction or permanent deformation.",
+    "evaluation_method_raw": "Stage 1: Verification of static load test report/theoretical analysis (if applicable) and design documents as submitted by the manufacturer. Demonstration through static load test applicable for Medium and above categories. For all others theoretical analysis to suffice.",
+    "evaluation_stage": "Stage 1",
+    "stage1_evaluation_types": [
+      "laboratory test",
+      "design/analysis review"
+    ],
+    "stage2_evaluation_types": null,
+    "evaluation_alternative_note": null,
+    "guidance_text": "For determination of anticipated flight loads, appropriate standard software may be used. Static Structural Analysis may be done with Aircraft Handbook Calculation Methods or Finite Element Methods (FEA) (Software) can also be used. Visual inspection to be conducted on engine/motor mounting and structure after the tests for deformation, if any. Static test to limit load based on maximum all up weight.",
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": "Verification differs by category: a static load test is applicable for Medium and above, while theoretical analysis suffices for the other categories.",
+    "subsystem_tag": null,
+    "requirement_type": "Structural strength",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 140,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "4.1(b)",
+    "section": "Structure",
+    "parameter": "Strength requirements",
+    "requirement_text": "b) Applicant has to provide analysis of the structure showing that a factor of safety of 1.5 has been used.",
+    "plain_paraphrase": "The applicant has to provide an analysis of the structure showing that a factor of safety of 1.5 has been used.",
+    "evaluation_method_raw": "Stage 1: Verification of analysis and design documents as submitted by the manufacturer.",
+    "evaluation_stage": "Stage 1",
+    "stage1_evaluation_types": [
+      "design/analysis review"
+    ],
+    "stage2_evaluation_types": null,
+    "evaluation_alternative_note": null,
+    "guidance_text": "Static Structural Analysis may be done with Aircraft Handbook Calculation Methods or Finite Element Methods (FEA) (Software) can also be used.",
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": null,
+    "requirement_type": "Structural strength",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 140,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "4.1(c)",
+    "section": "Structure",
+    "parameter": "Strength requirements",
+    "requirement_text": "c) Determine that each user removable bolt, screw, nut, pin or other fastener whose loss could jeopardize the safe operation of the UAS, shall incorporate a locking device or redundancy.",
+    "plain_paraphrase": "Each user-removable bolt, screw, nut, pin, or other fastener whose loss could jeopardize safe UAS operation shall have a locking device or redundancy.",
+    "evaluation_method_raw": "Stage 1: Verification of Design Review Analysis Document to establish that Primary Structure Elements (PSEs) have been identified and their drawings or work instructions have provision of lock nuts or adhesive or other mechanisms as applicable. Stage 2: Physical verification to be conducted by the inspection agency on sample UAS.",
+    "evaluation_stage": "Both",
+    "stage1_evaluation_types": [
+      "design/analysis review"
+    ],
+    "stage2_evaluation_types": [
+      "physical inspection"
+    ],
+    "evaluation_alternative_note": null,
+    "guidance_text": null,
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": "Fasteners",
+    "requirement_type": "Fastener security",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 140,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "4.1(d)",
+    "section": "Structure",
+    "parameter": "Strength requirements",
+    "requirement_text": "d) Determine that UAS is free from excessive vibrations under any operational speed and power condition.",
+    "plain_paraphrase": "The UAS must be free from excessive vibrations under any operational speed and power condition.",
+    "evaluation_method_raw": "Stage 1: Verify the submitted documents, regarding vibration measurement tests i.e. flight logs at manufacturer's end. Stage 2: Witness the vibration measurement tests i.e flight logs.",
+    "evaluation_stage": "Both",
+    "stage1_evaluation_types": [
+      "records verification"
+    ],
+    "stage2_evaluation_types": [
+      "flight test"
+    ],
+    "evaluation_alternative_note": null,
+    "guidance_text": null,
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": null,
+    "requirement_type": "Vibration",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 141,
+    "llm_confidence_note": "Stage 2 is classified as a flight test because the vibration measurement tests are witnessed, although the wording also refers to flight logs."
+  },
+  {
+    "clause_id": "4.1(e)",
+    "section": "Structure",
+    "parameter": "Strength requirements",
+    "requirement_text": "e) Determine that propeller blade clearance is sufficient from structure and/or components, and from ground.",
+    "plain_paraphrase": "Determine that the propeller blades have sufficient clearance from the structure and other components, as well as from the ground.",
+    "evaluation_method_raw": "Stage 1: Verification of design documents details regarding blade tip clearances. Stage 2: Validation on sample UAS during physical inspection.",
+    "evaluation_stage": "Both",
+    "stage1_evaluation_types": [
+      "design/analysis review"
+    ],
+    "stage2_evaluation_types": [
+      "physical inspection"
+    ],
+    "evaluation_alternative_note": null,
+    "guidance_text": null,
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": "Propellers",
+    "requirement_type": "Clearance",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 141,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "4.2(a)",
+    "section": "Structure",
+    "parameter": "Shock absorbing mechanism of UAS, if applicable",
+    "requirement_text": "a) It must be shown that the limit load factors selected for design will not be exceeded.",
+    "plain_paraphrase": "For the shock-absorbing mechanism, if applicable, it must be shown that the limit load factors selected for design will not be exceeded.",
+    "evaluation_method_raw": "Stage 1: Verification of design analysis submitted by the manufacturer.",
+    "evaluation_stage": "Stage 1",
+    "stage1_evaluation_types": [
+      "design/analysis review"
+    ],
+    "stage2_evaluation_types": null,
+    "evaluation_alternative_note": null,
+    "guidance_text": "Impact/Static Analysis Report of Landing gear using Finite Element Analysis (FEA) software can also be considered.",
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": "Landing gear",
+    "requirement_type": "Shock absorption",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 141,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "4.2(b)",
+    "section": "Structure",
+    "parameter": "Shock absorbing mechanism of UAS, if applicable",
+    "requirement_text": "b) The landing gear may not fail, but may yield, in a test showing its reserved energy absorption capacity.",
+    "plain_paraphrase": "The landing gear may not fail, but it may yield, in a test demonstrating its reserved energy absorption capacity.",
+    "evaluation_method_raw": "Stage 1: Verify the design document. Stage 2: Witness the drop test.",
+    "evaluation_stage": "Both",
+    "stage1_evaluation_types": [
+      "design/analysis review"
+    ],
+    "stage2_evaluation_types": [
+      "flight test"
+    ],
+    "evaluation_alternative_note": null,
+    "guidance_text": "Demonstration of safe landing of the aircraft when dropped from a height as determined by the manufacturer and demonstrated accordingly. This should also be reflected in operational limitations to be followed by the operator.",
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": "Landing gear",
+    "requirement_type": "Shock absorption",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 141,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "5.1(a)",
+    "section": "Material and Construction",
+    "parameter": "Type of material for construction",
+    "requirement_text": "The suitability and durability of materials used for parts, the failure of which could adversely affect safety, must: a) be established on the basis of experience or tests;",
+    "plain_paraphrase": "The suitability and durability of materials used for safety-critical parts must be established through experience or tests.",
+    "evaluation_method_raw": "Stage 1: Review of material test reports from accredited testing laboratory to ascertain the compliance criteria. However, in the absence of above documentation the manufacturer may submit appropriate analysis or Finite Element Analysis (FEA) whichever applicable.",
+    "evaluation_stage": "Stage 1",
+    "stage1_evaluation_types": [
+      "laboratory test",
+      "design/analysis review"
+    ],
+    "stage2_evaluation_types": null,
+    "evaluation_alternative_note": "If the material test reports are unavailable, the manufacturer may submit appropriate analysis or Finite Element Analysis (FEA), whichever is applicable.",
+    "guidance_text": "Strength experimental analysis (approved by ASTM / any other appropriate standard) to be carried out for the materials to find out the strength of the material.",
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": null,
+    "requirement_type": "Material suitability",
+    "external_standard_cited": true,
+    "external_standard_name": "ASTM OR any other appropriate standard",
+    "source_page": 141,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "5.1(b)",
+    "section": "Material and Construction",
+    "parameter": "Type of material for construction",
+    "requirement_text": "The suitability and durability of materials used for parts, the failure of which could adversely affect safety, must: b) meet approved specifications, which will ensure that strength and other properties assumed in the design data are correct;",
+    "plain_paraphrase": "Materials used for parts whose failure could adversely affect safety must meet approved specifications that ensure the strength and other properties assumed in the design data are correct.",
+    "evaluation_method_raw": "Stage 1: Review of material test reports from accredited testing laboratory (as per ISO/IEC 17025) to ascertain the compliance criteria. However, in the absence of above documentation the manufacturer may submit appropriate analysis or Finite Element Analysis (FEA) whichever applicable.",
+    "evaluation_stage": "Stage 1",
+    "stage1_evaluation_types": [
+      "laboratory test",
+      "design/analysis review"
+    ],
+    "stage2_evaluation_types": null,
+    "evaluation_alternative_note": "Appropriate analysis or Finite Element Analysis (FEA) may be submitted when the material test reports are not available.",
+    "guidance_text": "Strength experimental analysis (approved by ASTM / any other appropriate standard) to be carried out for the materials to find out the strength of the material.",
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": null,
+    "requirement_type": "Material suitability",
+    "external_standard_cited": true,
+    "external_standard_name": "ISO/IEC 17025; ASTM OR any other appropriate standard",
+    "source_page": 141,
+    "llm_confidence_note": "The classification is straightforward; ASTM is treated as an alternative to any other appropriate standard as stated in the guidance."
+  },
+  {
+    "clause_id": "5.1(c)",
+    "section": "Material and Construction",
+    "parameter": "Type of material for construction",
+    "requirement_text": "The suitability and durability of materials used for parts, the failure of which could adversely affect safety, must: c) take into account the effects of environmental conditions, such as temperature and humidity, expected in service.",
+    "plain_paraphrase": "The suitability and durability of materials used for safety-critical parts must take into account environmental conditions, such as the temperature and humidity expected during service.",
+    "evaluation_method_raw": "Stage 1: Review of material test reports from accredited testing laboratory (as per ISO/IEC 17025) to ascertain the compliance criteria. However, in the absence of above documentation the OEM may submit appropriate analysis.",
+    "evaluation_stage": "Stage 1",
+    "stage1_evaluation_types": [
+      "laboratory test",
+      "design/analysis review"
+    ],
+    "stage2_evaluation_types": null,
+    "evaluation_alternative_note": "Appropriate analysis may be submitted if the material test reports are not available.",
+    "guidance_text": "Strength experimental analysis (approved by ASTM / any other appropriate standard) to be carried out for the materials to find out the strength of the material.",
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": null,
+    "requirement_type": "Material suitability",
+    "external_standard_cited": true,
+    "external_standard_name": "ISO/IEC 17025; ASTM OR any other appropriate standard",
+    "source_page": 142,
+    "llm_confidence_note": "The wording 'approved by ASTM / any other appropriate standard' is ambiguous about whether ASTM refers to a specific standard, but it clearly cites ASTM and an alternative appropriate standard."
+  },
+  {
+    "clause_id": "5.2(a)",
+    "section": "Material and Construction",
+    "parameter": "Fabrication Method",
+    "requirement_text": "a) Methods of fabrication used must produce consistently sound structures.",
+    "plain_paraphrase": "The methods of fabrication used must produce structures that are consistently sound.",
+    "evaluation_method_raw": "Stage 1: Review of QC process specification and/or procedures submitted by the manufacturer for establishing consistency in quality of fabrication. Stage 2: Additionally, physical inspection may be conducted to verify if such processes are in place adequately.",
+    "evaluation_stage": "Both",
+    "stage1_evaluation_types": [
+      "records verification"
+    ],
+    "stage2_evaluation_types": [
+      "physical inspection"
+    ],
+    "evaluation_alternative_note": null,
+    "guidance_text": "Design document from manufacturer should have description about fabrication and integration procedure in Manufacturing Process Record.",
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": null,
+    "requirement_type": "Fabrication",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 142,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "5.2(b)",
+    "section": "Material and Construction",
+    "parameter": "Fabrication Method",
+    "requirement_text": "b) In a fabrication process, such as gluing, spot welding, heat-treating, etc. requires close control, the process must be performed according to an approved process specification.",
+    "plain_paraphrase": "When a fabrication process such as gluing, spot welding, or heat-treating requires close control, it must be performed according to an approved process specification.",
+    "evaluation_method_raw": "Stage 1: Review of the approved QC process specification and/or procedures submitted by the manufacturer for establishing consistency in quality of fabrication. Stage 2: Additionally, physical inspection may be conducted to verify if such processes are in place adequately.",
+    "evaluation_stage": "Both",
+    "stage1_evaluation_types": [
+      "records verification"
+    ],
+    "stage2_evaluation_types": [
+      "physical inspection"
+    ],
+    "evaluation_alternative_note": null,
+    "guidance_text": null,
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": null,
+    "requirement_type": "Fabrication",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 142,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "5.2(c)",
+    "section": "Material and Construction",
+    "parameter": "Fabrication Method",
+    "requirement_text": "c) Fabrication method must be substantiated by a test program. Note: Requirement of a test program is applicable for a new fabrication method - which is not yet established/proved in any industry.",
+    "plain_paraphrase": "The fabrication method must be substantiated by a test program. This requirement applies to a new fabrication method that is not yet established or proved in any industry.",
+    "evaluation_method_raw": "Stage 1: Review of the test program, QC process specification and/or procedures submitted by the manufacturer.",
+    "evaluation_stage": "Stage 1",
+    "stage1_evaluation_types": [
+      "records verification"
+    ],
+    "stage2_evaluation_types": null,
+    "evaluation_alternative_note": null,
+    "guidance_text": null,
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": null,
+    "requirement_type": "Fabrication",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 142,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "5.3(a)",
+    "section": "Material and Construction",
+    "parameter": "Means of protection against deterioration or loss of strength in operation due to any cause i.e. weathering, corrosion and abrasion.",
+    "requirement_text": "a) Effect of in-service wear on the loading of critical components should be determined.",
+    "plain_paraphrase": "The effect of wear during service on the loading of critical components should be determined.",
+    "evaluation_method_raw": "Stage 1: By design review or analysis. Stage 2: Physical inspection after ground and flight tests.",
+    "evaluation_stage": "Both",
+    "stage1_evaluation_types": [
+      "design/analysis review"
+    ],
+    "stage2_evaluation_types": [
+      "physical inspection"
+    ],
+    "evaluation_alternative_note": null,
+    "guidance_text": "Manufacturer to identify critical components for anticipated in-service wear.",
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": null,
+    "requirement_type": "Deterioration protection",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 143,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "5.3(b)",
+    "section": "Material and Construction",
+    "parameter": "Means of protection against deterioration or loss of strength in operation due to any cause i.e. weathering, corrosion and abrasion.",
+    "requirement_text": "b) Effect of temperature and moisture should be determined in computing the material design values.",
+    "plain_paraphrase": "The effect of temperature and moisture should be determined when computing the material design values.",
+    "evaluation_method_raw": "Stage 1: Verification of test reports from accredited testing laboratory. For Temperature: Verification of test reports from an accredited testing lab submitted by the manufacturer for temperature range of -10\u00b0C and +50\u00b0C, as per IS 9000 Part 2 & 3 or equivalent standard. For Humidity: Verification of test reports from an accredited testing lab submitted by the manufacturer for 90% Relative Humidity at +40\u00b0C, as per IS 9000 Part 4 or IEC 60068-2-78 or equivalent standard.",
+    "evaluation_stage": "Stage 1",
+    "stage1_evaluation_types": [
+      "laboratory test"
+    ],
+    "stage2_evaluation_types": null,
+    "evaluation_alternative_note": null,
+    "guidance_text": "Specimen / Coupon Tests",
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": null,
+    "requirement_type": "Deterioration protection",
+    "external_standard_cited": true,
+    "external_standard_name": "IS 9000 Part 2 & 3 OR equivalent standard; IS 9000 Part 4 OR IEC 60068-2-78 OR equivalent standard",
+    "source_page": 143,
+    "llm_confidence_note": "none"
+  },
+  {
+    "clause_id": "5.4(a)",
+    "section": "Material and Construction",
+    "parameter": "Fire resistant identification plate on UAS for inscribing UIN.",
+    "requirement_text": "a) Determination of ID plate material which should be fire resistant.",
+    "plain_paraphrase": "The material of the identification plate should be determined to be fire resistant.",
+    "evaluation_method_raw": "Stage 1: Review of the declared material type of the ID plate and supported by test reports from accredited testing laboratories. In case the manufacturer is using certified fire-resistant materials, then a certificate and/or appropriate test report certifying the same from the material manufacturer may be accepted.",
+    "evaluation_stage": "Stage 1",
+    "stage1_evaluation_types": [
+      "laboratory test",
+      "records verification"
+    ],
+    "stage2_evaluation_types": null,
+    "evaluation_alternative_note": "A certificate from the material manufacturer may be accepted instead of, or together with, an appropriate test report when certified fire-resistant material is used.",
+    "guidance_text": null,
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": "Identification plate",
+    "requirement_type": "Identification",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 143,
+    "llm_confidence_note": "The material manufacturer's certificate was classified as records verification as an alternative to laboratory test reports."
+  },
+  {
+    "clause_id": "5.4(b)",
+    "section": "Material and Construction",
+    "parameter": "Fire resistant identification plate on UAS for inscribing UIN.",
+    "requirement_text": "b) Determine location of ID plate along with its secure fixing on UAS.",
+    "plain_paraphrase": "The location of the ID plate and its secure fixing on the UAS must be determined.",
+    "evaluation_method_raw": "Stage 1: The Location of ID Plate Manufacturer has to be mentioned in the Detailed Drawing. Stage 2: Ascertain by physical inspection the location of the fire-resistant identification plate and whether it is securely fixed on UAS.",
+    "evaluation_stage": "Both",
+    "stage1_evaluation_types": [
+      "design/analysis review"
+    ],
+    "stage2_evaluation_types": [
+      "physical inspection"
+    ],
+    "evaluation_alternative_note": null,
+    "guidance_text": null,
+    "applicable_categories": [
+      "Micro",
+      "Small",
+      "Medium"
+    ],
+    "category_variation_note": null,
+    "subsystem_tag": "Identification plate",
+    "requirement_type": "Identification",
+    "external_standard_cited": false,
+    "external_standard_name": null,
+    "source_page": 143,
+    "llm_confidence_note": "none"
+  }
+]

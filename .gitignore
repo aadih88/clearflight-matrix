@@ -1,0 +1,5 @@
+.env
+.venv/
+__pycache__/
+private/
+check_public.py

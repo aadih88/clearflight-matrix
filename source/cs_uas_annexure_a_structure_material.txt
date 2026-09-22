@@ -1,0 +1,163 @@
+# Source: Certification Scheme for Unmanned Aircraft Systems, Gazette
+# notification 26 Jan 2022, Part 3 (Certification Criteria), Annexure A.
+# Slice: Section 4 (Structure) + Section 5 (Material and Construction),
+# gazette pages 140-143.
+# DGCA portal (search Drones/UAS for the Certification Scheme and related
+# documents; this page does not link to it directly):
+# https://www.dgca.gov.in/digigov-portal/?baseLocale=en_US?page=5068/4998/servicename
+#
+# Hand-transcribed from `pdftotext -layout` output, verified column-by-column
+# against the four-column source table (Parameter/Characteristics |
+# Compliance Criteria (with Requirements) | Method of Evaluation |
+# Guidance on method of evaluation). Wording is verbatim except:
+#   - whitespace/line-wrap normalized within a cell
+#   - 5.1(a)/(b)/(c) GUIDANCE: the source layout drops an opening
+#     parenthesis before "approved by ASTM..." (a PDF-extraction artifact —
+#     the matching close-paren survives). Reconstructed as "(approved by
+#     ASTM / any other appropriate standard)"; flag if this needs
+#     re-checking against the printed gazette.
+#
+# Fields per block:
+#   PAGE               gazette page the clause's Compliance Criteria begins on
+#   SECTION            "Structure" (4.x) or "Material and Construction" (5.x)
+#   PARAMETER          Parameter/Characteristics cell
+#   REQUIREMENT        Compliance Criteria (with Requirements) cell, verbatim
+#   EVALUATION_METHOD  Method of Evaluation cell, verbatim
+#   GUIDANCE           Guidance on method of evaluation cell, verbatim, or
+#                       "(none)" if that cell is genuinely blank in the source
+
+### 4.1(a)
+PAGE: 140
+SECTION: Structure
+PARAMETER: Strength requirements
+REQUIREMENT: a) Demonstrate that airframe structure shall be able to withstand flight limit loads without failure, malfunction or permanent deformation.
+EVALUATION_METHOD: Stage 1: Verification of static load test report/theoretical analysis (if applicable) and design documents as submitted by the manufacturer. Demonstration through static load test applicable for Medium and above categories. For all others theoretical analysis to suffice.
+GUIDANCE: For determination of anticipated flight loads, appropriate standard software may be used. Static Structural Analysis may be done with Aircraft Handbook Calculation Methods or Finite Element Methods (FEA) (Software) can also be used. Visual inspection to be conducted on engine/motor mounting and structure after the tests for deformation, if any. Static test to limit load based on maximum all up weight.
+
+### 4.1(b)
+PAGE: 140
+SECTION: Structure
+PARAMETER: Strength requirements
+REQUIREMENT: b) Applicant has to provide analysis of the structure showing that a factor of safety of 1.5 has been used.
+EVALUATION_METHOD: Stage 1: Verification of analysis and design documents as submitted by the manufacturer.
+GUIDANCE: Static Structural Analysis may be done with Aircraft Handbook Calculation Methods or Finite Element Methods (FEA) (Software) can also be used.
+
+### 4.1(c)
+PAGE: 140
+SECTION: Structure
+PARAMETER: Strength requirements
+REQUIREMENT: c) Determine that each user removable bolt, screw, nut, pin or other fastener whose loss could jeopardize the safe operation of the UAS, shall incorporate a locking device or redundancy.
+EVALUATION_METHOD: Stage 1: Verification of Design Review Analysis Document to establish that Primary Structure Elements (PSEs) have been identified and their drawings or work instructions have provision of lock nuts or adhesive or other mechanisms as applicable. Stage 2: Physical verification to be conducted by the inspection agency on sample UAS.
+GUIDANCE: (none)
+
+### 4.1(d)
+PAGE: 141
+SECTION: Structure
+PARAMETER: Strength requirements
+REQUIREMENT: d) Determine that UAS is free from excessive vibrations under any operational speed and power condition.
+EVALUATION_METHOD: Stage 1: Verify the submitted documents, regarding vibration measurement tests i.e. flight logs at manufacturer's end. Stage 2: Witness the vibration measurement tests i.e flight logs.
+GUIDANCE: (none)
+
+### 4.1(e)
+PAGE: 141
+SECTION: Structure
+PARAMETER: Strength requirements
+REQUIREMENT: e) Determine that propeller blade clearance is sufficient from structure and/or components, and from ground.
+EVALUATION_METHOD: Stage 1: Verification of design documents details regarding blade tip clearances. Stage 2: Validation on sample UAS during physical inspection.
+GUIDANCE: (none)
+
+### 4.2(a)
+PAGE: 141
+SECTION: Structure
+PARAMETER: Shock absorbing mechanism of UAS, if applicable
+REQUIREMENT: a) It must be shown that the limit load factors selected for design will not be exceeded.
+EVALUATION_METHOD: Stage 1: Verification of design analysis submitted by the manufacturer.
+GUIDANCE: Impact/Static Analysis Report of Landing gear using Finite Element Analysis (FEA) software can also be considered.
+
+### 4.2(b)
+PAGE: 141
+SECTION: Structure
+PARAMETER: Shock absorbing mechanism of UAS, if applicable
+REQUIREMENT: b) The landing gear may not fail, but may yield, in a test showing its reserved energy absorption capacity.
+EVALUATION_METHOD: Stage 1: Verify the design document. Stage 2: Witness the drop test.
+GUIDANCE: Demonstration of safe landing of the aircraft when dropped from a height as determined by the manufacturer and demonstrated accordingly. This should also be reflected in operational limitations to be followed by the operator.
+
+### 5.1(a)
+PAGE: 141
+SECTION: Material and Construction
+PARAMETER: Type of material for construction
+REQUIREMENT: The suitability and durability of materials used for parts, the failure of which could adversely affect safety, must: a) be established on the basis of experience or tests;
+EVALUATION_METHOD: Stage 1: Review of material test reports from accredited testing laboratory to ascertain the compliance criteria. However, in the absence of above documentation the manufacturer may submit appropriate analysis or Finite Element Analysis (FEA) whichever applicable.
+GUIDANCE: Strength experimental analysis (approved by ASTM / any other appropriate standard) to be carried out for the materials to find out the strength of the material.
+
+### 5.1(b)
+PAGE: 141
+SECTION: Material and Construction
+PARAMETER: Type of material for construction
+REQUIREMENT: The suitability and durability of materials used for parts, the failure of which could adversely affect safety, must: b) meet approved specifications, which will ensure that strength and other properties assumed in the design data are correct;
+EVALUATION_METHOD: Stage 1: Review of material test reports from accredited testing laboratory (as per ISO/IEC 17025) to ascertain the compliance criteria. However, in the absence of above documentation the manufacturer may submit appropriate analysis or Finite Element Analysis (FEA) whichever applicable.
+GUIDANCE: Strength experimental analysis (approved by ASTM / any other appropriate standard) to be carried out for the materials to find out the strength of the material.
+
+### 5.1(c)
+PAGE: 142
+SECTION: Material and Construction
+PARAMETER: Type of material for construction
+REQUIREMENT: The suitability and durability of materials used for parts, the failure of which could adversely affect safety, must: c) take into account the effects of environmental conditions, such as temperature and humidity, expected in service.
+EVALUATION_METHOD: Stage 1: Review of material test reports from accredited testing laboratory (as per ISO/IEC 17025) to ascertain the compliance criteria. However, in the absence of above documentation the OEM may submit appropriate analysis.
+GUIDANCE: Strength experimental analysis (approved by ASTM / any other appropriate standard) to be carried out for the materials to find out the strength of the material.
+
+### 5.2(a)
+PAGE: 142
+SECTION: Material and Construction
+PARAMETER: Fabrication Method
+REQUIREMENT: a) Methods of fabrication used must produce consistently sound structures.
+EVALUATION_METHOD: Stage 1: Review of QC process specification and/or procedures submitted by the manufacturer for establishing consistency in quality of fabrication. Stage 2: Additionally, physical inspection may be conducted to verify if such processes are in place adequately.
+GUIDANCE: Design document from manufacturer should have description about fabrication and integration procedure in Manufacturing Process Record.
+
+### 5.2(b)
+PAGE: 142
+SECTION: Material and Construction
+PARAMETER: Fabrication Method
+REQUIREMENT: b) In a fabrication process, such as gluing, spot welding, heat-treating, etc. requires close control, the process must be performed according to an approved process specification.
+EVALUATION_METHOD: Stage 1: Review of the approved QC process specification and/or procedures submitted by the manufacturer for establishing consistency in quality of fabrication. Stage 2: Additionally, physical inspection may be conducted to verify if such processes are in place adequately.
+GUIDANCE: (none)
+
+### 5.2(c)
+PAGE: 142
+SECTION: Material and Construction
+PARAMETER: Fabrication Method
+REQUIREMENT: c) Fabrication method must be substantiated by a test program. Note: Requirement of a test program is applicable for a new fabrication method - which is not yet established/proved in any industry.
+EVALUATION_METHOD: Stage 1: Review of the test program, QC process specification and/or procedures submitted by the manufacturer.
+GUIDANCE: (none)
+
+### 5.3(a)
+PAGE: 143
+SECTION: Material and Construction
+PARAMETER: Means of protection against deterioration or loss of strength in operation due to any cause i.e. weathering, corrosion and abrasion.
+REQUIREMENT: a) Effect of in-service wear on the loading of critical components should be determined.
+EVALUATION_METHOD: Stage 1: By design review or analysis. Stage 2: Physical inspection after ground and flight tests.
+GUIDANCE: Manufacturer to identify critical components for anticipated in-service wear.
+
+### 5.3(b)
+PAGE: 143
+SECTION: Material and Construction
+PARAMETER: Means of protection against deterioration or loss of strength in operation due to any cause i.e. weathering, corrosion and abrasion.
+REQUIREMENT: b) Effect of temperature and moisture should be determined in computing the material design values.
+EVALUATION_METHOD: Stage 1: Verification of test reports from accredited testing laboratory. For Temperature: Verification of test reports from an accredited testing lab submitted by the manufacturer for temperature range of -10°C and +50°C, as per IS 9000 Part 2 & 3 or equivalent standard. For Humidity: Verification of test reports from an accredited testing lab submitted by the manufacturer for 90% Relative Humidity at +40°C, as per IS 9000 Part 4 or IEC 60068-2-78 or equivalent standard.
+GUIDANCE: Specimen / Coupon Tests
+
+### 5.4(a)
+PAGE: 143
+SECTION: Material and Construction
+PARAMETER: Fire resistant identification plate on UAS for inscribing UIN.
+REQUIREMENT: a) Determination of ID plate material which should be fire resistant.
+EVALUATION_METHOD: Stage 1: Review of the declared material type of the ID plate and supported by test reports from accredited testing laboratories. In case the manufacturer is using certified fire-resistant materials, then a certificate and/or appropriate test report certifying the same from the material manufacturer may be accepted.
+GUIDANCE: (none)
+
+### 5.4(b)
+PAGE: 143
+SECTION: Material and Construction
+PARAMETER: Fire resistant identification plate on UAS for inscribing UIN.
+REQUIREMENT: b) Determine location of ID plate along with its secure fixing on UAS.
+EVALUATION_METHOD: Stage 1: The Location of ID Plate Manufacturer has to be mentioned in the Detailed Drawing. Stage 2: Ascertain by physical inspection the location of the fire-resistant identification plate and whether it is securely fixed on UAS.
+GUIDANCE: (none)
