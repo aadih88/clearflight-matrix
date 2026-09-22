@@ -2,7 +2,7 @@
 
 A structured, browsable traceability matrix for a slice of India's DGCA UAS certification requirements — built to test how far LLM-assisted extraction from a real regulatory document can be trusted, not just demoed.
 
-**Live app:** [link] · **Full technical spec:** [SPEC.md](./SPEC.md)
+**Live app:** [link](https://clearflight-matrix.streamlit.app/#source-text-by-clause) · **Full technical spec:** [SPEC.md](./SPEC.md)
 
 ## What this is
 
